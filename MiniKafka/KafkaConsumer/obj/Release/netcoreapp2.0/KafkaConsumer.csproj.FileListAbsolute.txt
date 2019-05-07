@@ -1,0 +1,11 @@
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\bin\Release\netcoreapp2.0\KafkaConsumer.deps.json
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\bin\Release\netcoreapp2.0\KafkaConsumer.runtimeconfig.json
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\bin\Release\netcoreapp2.0\KafkaConsumer.runtimeconfig.dev.json
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\bin\Release\netcoreapp2.0\KafkaConsumer.dll
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\bin\Release\netcoreapp2.0\KafkaConsumer.pdb
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.csprojAssemblyReference.cache
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.csproj.CoreCompileInputs.cache
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.AssemblyInfoInputs.cache
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.AssemblyInfo.cs
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.dll
+C:\Users\ma.rosario.n.capuno\KafkaConsumer\obj\Release\netcoreapp2.0\KafkaConsumer.pdb

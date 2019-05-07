@@ -1,0 +1,11 @@
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.csprojAssemblyReference.cache
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.csproj.CoreCompileInputs.cache
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.AssemblyInfoInputs.cache
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.AssemblyInfo.cs
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\bin\Release\netcoreapp2.2\KafkaProducer.deps.json
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\bin\Release\netcoreapp2.2\KafkaProducer.runtimeconfig.json
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\bin\Release\netcoreapp2.2\KafkaProducer.runtimeconfig.dev.json
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\bin\Release\netcoreapp2.2\KafkaProducer.dll
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\bin\Release\netcoreapp2.2\KafkaProducer.pdb
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.dll
+C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaProducer\obj\Release\netcoreapp2.2\KafkaProducer.pdb
