@@ -40,6 +40,7 @@ namespace KafkaProducer
                     string text;
                     try
                     {
+                        //where you can insert reading from API
                         text = Console.ReadLine();
                     }
                     catch (IOException)
