@@ -36,11 +36,13 @@
             // (including non-null data).
             using (var consumer = new ConsumerBuilder<Ignore, string>(config)
                 // Note: All handlers are called on the main .Consume thread.
-                .SetErrorHandler((_, e) => Console.WriteLine($"Error: {e.Reason}"))
-                .SetStatisticsHandler((_, json) => Console.WriteLine($"Statistics: {json}"))
+                .SetErrorHandler((_, e) => { e = null; })
+                .SetStatisticsHandler((_, json) => { json = null; })
+                //.SetErrorHandler((_, e) => Console.WriteLine($"Error: {e.Reason}"))
+                //.SetStatisticsHandler((_, json) => Console.WriteLine($"Statistics: {json}"))
                 .SetPartitionsAssignedHandler((c, partitions) =>
                 {
-                    Console.WriteLine($"Assigned partitions: [{string.Join(", ", partitions)}]");
+                    //Console.WriteLine($"Assigned partitions: [{string.Join(", ", partitions)}]");
                     // possibly manually specify start offsets or override the partition assignment provided by
                     // the consumer group by returning a list of topic/partition/offsets to assign to, e.g.:
                     // 
@@ -62,11 +64,19 @@
                         {
                             var consumeResult = consumer.Consume(cancellationToken);
 
+                            MongoDBConfig mongoDBConfig = new MongoDBConfig() {
+                                Database = "GenMessageDB"
+                                , Port = 27018
+                            };
+
+                            var data = new Data(mongoDBConfig);
+
+                            data.Insert(consumeResult?.Message?.Value, cancellationToken);
+
                             if (consumeResult.IsPartitionEOF)
                             {
                                 Console.WriteLine(
                                     $"Reached end of topic {consumeResult.Topic}, partition {consumeResult.Partition}, offset {consumeResult.Offset}.");
-                                    //call mongoDB to store
                                 continue;
                             }
 

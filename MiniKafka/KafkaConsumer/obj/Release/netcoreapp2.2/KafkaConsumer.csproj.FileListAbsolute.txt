@@ -13,3 +13,14 @@ C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\K
 C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.AssemblyInfo.cs
 C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.dll
 C:\Users\ma.rosario.n.capuno\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.pdb
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\bin\Release\netcoreapp2.2\KafkaConsumer.deps.json
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\bin\Release\netcoreapp2.2\KafkaConsumer.runtimeconfig.json
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\bin\Release\netcoreapp2.2\KafkaConsumer.runtimeconfig.dev.json
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\bin\Release\netcoreapp2.2\KafkaConsumer.dll
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\bin\Release\netcoreapp2.2\KafkaConsumer.pdb
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.csprojAssemblyReference.cache
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.csproj.CoreCompileInputs.cache
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.AssemblyInfoInputs.cache
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.AssemblyInfo.cs
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.dll
+C:\Users\ma.rosario.n.capuno\Source\repos\kafka-net-core2\MiniKafka\KafkaConsumer\obj\Release\netcoreapp2.2\KafkaConsumer.pdb
