@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Net;
 
 namespace KafkaProducer
 {
@@ -27,32 +28,39 @@ namespace KafkaProducer
                 Console.WriteLine("> value<enter>");
                 Console.WriteLine("Ctrl-C to quit.\n");
 
-                var cancelled = false;
-                Console.CancelKeyPress += (_, e) => {
-                    e.Cancel = true; // prevent the process from terminating.
-                    cancelled = true;
-                };
+                //var cancelled = false;
+                //Console.CancelKeyPress += (_, e) => {
+                //    e.Cancel = true; // prevent the process from terminating.
+                //    cancelled = true;
+                //};
 
-                while (!cancelled)
-                {
+                //while (!cancelled)
+                //{
                     Console.Write("> ");
 
-                    string text;
+                    string text = "";
                     try
                     {
-                        //where you can insert reading from API
-                        text = Console.ReadLine();
+                        HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://172.20.150.196/api/values");
+
+                        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                        using (Stream stream = response.GetResponseStream())
+                        using (StreamReader reader = new StreamReader(stream))
+                        {
+                            text = reader.ReadToEnd();
+                        }
+                        Console.WriteLine(text);
                     }
                     catch (IOException)
                     {
                         // IO exception is thrown when ConsoleCancelEventArgs.Cancel == true.
-                        break;
+                        //break;
                     }
                     if (text == null)
                     {
                         // Console returned null before 
                         // the CancelKeyPress was treated
-                        break;
+                        //break;
                     }
 
                     string key = null;
@@ -80,7 +88,8 @@ namespace KafkaProducer
                     {
                         Console.WriteLine($"failed to deliver message: {e.Message} [{e.Error.Code}]");
                     }
-                }
+                //}
+                Console.ReadLine();
 
                 // Since we are producing synchronously, at this point there will be no messages
                 // in-flight and no delivery reports waiting to be acknowledged, so there is no
