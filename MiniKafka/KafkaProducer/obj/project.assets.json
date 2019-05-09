@@ -889,11 +889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ma.rosario.n.capuno\\MiniKafka\\KafkaProducer\\KafkaProducer.csproj",
+      "projectUniqueName": "C:\\Users\\ma.rosario.n.capuno\\Source\\Repos\\kafka-net-core2\\MiniKafka\\KafkaProducer\\KafkaProducer.csproj",
       "projectName": "KafkaProducer",
-      "projectPath": "C:\\Users\\ma.rosario.n.capuno\\MiniKafka\\KafkaProducer\\KafkaProducer.csproj",
+      "projectPath": "C:\\Users\\ma.rosario.n.capuno\\Source\\Repos\\kafka-net-core2\\MiniKafka\\KafkaProducer\\KafkaProducer.csproj",
       "packagesPath": "C:\\Users\\ma.rosario.n.capuno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ma.rosario.n.capuno\\MiniKafka\\KafkaProducer\\obj\\",
+      "outputPath": "C:\\Users\\ma.rosario.n.capuno\\Source\\Repos\\kafka-net-core2\\MiniKafka\\KafkaProducer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
